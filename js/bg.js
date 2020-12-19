@@ -19,7 +19,7 @@ background.height = height;
 
 
 // Second canvas used for the stars
-bgCtx.fillStyle = '#ffffff';
+bgCtx.fillStyle = '#1e1429';
 bgCtx.fillRect(0, 0, width, height);
 
 // stars
@@ -98,7 +98,7 @@ entities.push(new ShootingStar());
 
 //animate background
 function animate() {
-  bgCtx.fillStyle = '#110E19';
+  bgCtx.fillStyle = '#1e1429';
   bgCtx.fillRect(0, 0, width, height);
   bgCtx.fillStyle = '#ffffff';
   bgCtx.strokeStyle = '#ffffff';

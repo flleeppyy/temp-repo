@@ -26,11 +26,15 @@ body #chen {
   border-radius: 100%;
   border: 0.4em solid snow;
 }
+body *[fuckyou=css] {
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.55);
+}
 
 #bgCanvas {
   position: absolute;
   z-index: -10000;
-  background: #1e1429;
 }
 
 h2 {
@@ -49,7 +53,7 @@ h2 {
   padding: 12px;
 }
 #infobox * {
-  margin: 8px;
+  margin: 6px;
   align-self: flex-start;
 }
 #infobox #links {
