@@ -15,7 +15,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #26172e;
+  // background doesn't really work here since we have the background.
+  background: #1e1429;
   color: snow;
   height: 100vh;
   #chen {
@@ -28,6 +29,11 @@ body {
   }
 }
 
+#bgCanvas {
+  position: absolute;
+  z-index: -10000;
+  background: #1e1429;
+}
 h2 {
   font-size: x-large;
 }

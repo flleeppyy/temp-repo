@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #26172e;
+  background: #1e1429;
   color: snow;
   height: 100vh;
 }
@@ -25,6 +25,12 @@ body #chen {
   width: 14em;
   border-radius: 100%;
   border: 0.4em solid snow;
+}
+
+#bgCanvas {
+  position: absolute;
+  z-index: -10000;
+  background: #1e1429;
 }
 
 h2 {
