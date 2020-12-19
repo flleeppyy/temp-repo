@@ -102,7 +102,7 @@ function animate() {
   bgCtx.fillRect(0, 0, width, height);
   bgCtx.fillStyle = '#ffffff';
   bgCtx.strokeStyle = '#ffffff';
-
+  
   var entLen = entities.length;
 
   while (entLen--) {
@@ -124,4 +124,5 @@ $(window).resize(() => {
       y: Math.random() * height
     }));
   }
+  animate()
 })
