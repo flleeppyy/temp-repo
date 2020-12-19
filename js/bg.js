@@ -11,7 +11,7 @@ var background = document.getElementById("bgCanvas"),
   width = window.innerWidth,
   height = window.innerHeight;
 
-(height < 400) ? height = 400 : height;
+// (height < 400) ? height = 400 : height;
 
 background.width = width;
 background.height = height;
@@ -115,14 +115,18 @@ animate()
 $(window).resize(() => {
   height = window.innerHeight;
   width = window.innerWidth;
-  entities.push(new ShootingStar());
-  entities.push(new ShootingStar());
+  background.width = width
+  background.height = height
+  bgCtx.fillRect(0, 0, width, height);
   entities = [];
+  entities.push(new ShootingStar());
+  entities.push(new ShootingStar());
+
   for (var i = 0; i < height; i++) {
     entities.push(new Star({
       x: Math.random() * width,
       y: Math.random() * height
     }));
   }
-  animate()
+  // animate()
 })
