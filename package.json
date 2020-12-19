@@ -1,0 +1,16 @@
+{
+  "name": "temp-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/flleeppyy/temp-repo.git",
+  "author": "Flleeppyy <flleeppyy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "sass:watch": "sass --watch css/main.scss css/main.css",
+    "sass:compile": "sass css/main.scss css/main.css"
+  },
+  "dependencies": {
+    "sass": "^1.30.0",
+    "scss": "^0.2.4"
+  }
+}
